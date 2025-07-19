@@ -4,6 +4,11 @@ export default navbar([
   "/",
   "/demo/",
   {
+    text: "计算机网络",
+    icon: "streamline-ultimate-color:network-browser",
+    link: "README.md",
+  },
+  {
     text: "博文",
     icon: "pen-to-square",
     prefix: "/posts/",
