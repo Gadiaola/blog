@@ -5,7 +5,7 @@ export default navbar([
   "/demo/",
   {
     text: "博文",
-    icon: "pen-to-square",
+    icon: "streamline-ultimate-color:app-window-text",
     prefix: "/posts/",
     children: [
       {
@@ -44,11 +44,11 @@ export default navbar([
   {
     text: "计算机网络",
     icon: "streamline-ultimate-color:network-browser",
-    link: "src/posts/internet.md",
+    link: "internet.md",
   },
   {
     text: "更多信息",
-    icon: "circle-question",
+    icon: "streamline-ultimate-color:party-confetti",
     link: "README.md",
   },
 
