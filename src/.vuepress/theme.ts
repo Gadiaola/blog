@@ -53,6 +53,7 @@ export default hopeTheme({
     },
   },
 
+
   // 加密配置
   encrypt: {
     config: {
@@ -146,6 +147,23 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     blog: true,
+
+    // 通过 `backToTop: false` 禁用返回顶部按钮
+    // 或自定义返回顶部按钮
+    backToTop: {
+      /**
+       * 显示返回顶部按钮的滚动阈值距离（以像素为单位）
+       *
+       * @default 100
+       */
+      threshold: 500,
+      /**
+       * 是否显示滚动进度
+       *
+       * @default true
+       */
+      progress: false,
+    },
 
     // 启用之前需安装 @waline/client
     // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
