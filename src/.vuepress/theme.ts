@@ -4,6 +4,12 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
+  //打印功能
+  print: true,
+  
+  //全屏模式
+  fullscreen: true,
+
   hostname: "https://mister-hope.github.io",
 
   author: {
