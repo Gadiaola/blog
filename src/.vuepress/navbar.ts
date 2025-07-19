@@ -4,11 +4,6 @@ export default navbar([
   "/",
   "/demo/",
   {
-    text: "计算机网络",
-    icon: "streamline-ultimate-color:network-browser",
-    link: "README.md",
-  },
-  {
     text: "博文",
     icon: "pen-to-square",
     prefix: "/posts/",
@@ -45,6 +40,11 @@ export default navbar([
       },
       { text: "樱桃", icon: "pen-to-square", link: "cherry" },
     ],
+  },
+  {
+    text: "计算机网络",
+    icon: "streamline-ultimate-color:network-browser",
+    link: "src/posts/internet.md",
   },
   {
     text: "更多信息",
