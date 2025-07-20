@@ -3,7 +3,6 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   "/demo/",
-  "/internet/",
 
   {
     text: "博文",
@@ -43,6 +42,7 @@ export default navbar([
       { text: "樱桃", icon: "pen-to-square", link: "cherry" },
     ],
   },
+  "/internet/",
   // {
   //   text: "计算机网络",
   //   icon: "streamline-ultimate-color:network-browser",

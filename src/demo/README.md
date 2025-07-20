@@ -1,9 +1,9 @@
 ---
-title: 计算机网络
+title: 主要功能与配置演示
 index: false
-icon: streamline-ultimate-color:network-browser
+icon: laptop-code
 category:
-  - Http
+  - 使用指南
 ---
 
 <Catalog />
