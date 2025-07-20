@@ -3,7 +3,7 @@ home: true
 layout: Blog
 icon: house
 title: 主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: streamline-ultimate-color:circus-clown-1
 heroText: Gadiaola
 heroFullScreen: true
 tagline: 你可以在这里放置你的口号与标语
