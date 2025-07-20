@@ -23,13 +23,14 @@ export default sidebar({
       link: "https://ecosystem.vuejs.press/zh/plugins/markdown/revealjs/demo.html",
     },
   ],
-  
+
   "/internet/": [
     "",
     {
-      text: "计算机网络",
+      text: "网络",
       icon: "streamline-ultimate-color:network-browser",
-      prefix: "internet/",
+      link: "internet/",
+      //prefix: "internet/",
       children: "structure",
     },
 
